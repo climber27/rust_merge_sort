@@ -4,10 +4,10 @@ fn main() {
     println!("==================");
     println!(" ");
 
-    let mut nums = vec![3,1,6,2,4];
-    println!("unsorted: {:?}", nums);
+    let mut nums = vec![3,1,6,2,4,7,5];
+    println!("Unsorted: {:?}", nums);
     merge_sort(&mut nums);
-    println!("sorted: {:?}", nums);
+    println!("Sorted: {:?}", nums);
 }
 
 fn merge_sort(nums: &mut std::vec::Vec<usize>) { 
